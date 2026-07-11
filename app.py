@@ -123,7 +123,7 @@ with st.container(border=True):
         st.markdown("""3을 입력 --> A
                                     C""")
 st.subheader("두번째 문제")
- with st.container(border=True):
+with st.container(border=True):
 
 st.title("카운터 앱")
 count = 0
