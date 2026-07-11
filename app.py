@@ -42,7 +42,7 @@ score = st.slider("점수", 0, 100, 50)
 text1 = st.text_area("소감", placeholder = "소감입니다")
 
 if st.button("확인"):
-    st.success(f"user_id}/{grade}학년/{cla}반/{level}")
+    st.success(f"{user_id}/{grade}학년/{cla}반/{level}")
     st.markdown(f"**질문 내용:** {score})
     st.info(f"소감:{text1})
 
