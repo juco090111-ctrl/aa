@@ -31,3 +31,12 @@ if st.button("질문 전송하기"):
             st.info("참고: 14세 미만 사용자이므로 보호자 모드가 활성화됩니다.")
     else:
         st.error("⚠️ 동의 항목에 체크해야 전송이 가능합니다.")
+
+
+
+
+
+st.title("Hello world")
+st.sbuheader("Hello wolrd")
+st.text("Hello world")
+st.success("Hello world")
