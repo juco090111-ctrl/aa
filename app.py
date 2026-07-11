@@ -108,7 +108,7 @@ with st.sidebar:
     if q2:
         st.markdown("라는걸 명심하세요!")
 st.subheader("첫번째 문제")
- with st.container(border=True):
+with st.container(border=True):
         st.markdown("n = int(input())")
         st.markdown("""if n < 4:
                             print("A")""")
