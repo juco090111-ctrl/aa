@@ -31,3 +31,8 @@ if st.button("질문 전송하기"):
             st.info("참고: 14세 미만 사용자이므로 보호자 모드가 활성화됩니다.")
     else:
         st.error("⚠️ 동의 항목에 체크해야 전송이 가능합니다.")
+
+st.markdown("ㅇㅇㅇㅇㅇㅇ")
+a = st.number_input(min_value = 1, max_value = 17, velue = 17)
+b = st.number_input(min_value = 1, max_value = 17, velue = 17)
+st.markdown(a+b)
