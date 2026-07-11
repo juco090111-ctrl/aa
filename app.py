@@ -98,32 +98,32 @@ import streamlit as st
 #            st.write("전문가가 제안하는 코디 연출법을 참고해 보세요.")
 
 #ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
-#st.markdown("# 파이썬 퀴즈 프로그램")
-#with st.sidebar:
-#    st.header("힌트 보기")
-#    q1 = st.button("1번 문제")
-#    q2 = st.button("2번 문제")
-#    if q1:
-#        st.markdown("라는걸 명심하세요!")
-#    if q2:
-#        st.markdown("라는걸 명심하세요!")
-#st.subheader("첫번째 문제")
-# with st.container(border=True):
-#        st.markdown("n = int(input())")
-#        st.markdown("""if n < 4:
-#                            print("A")""")
-#        st.markdown("""____ n > 8:
-#                            print("B")""")
-#        st.markdown("""else:
-#                            print("C")""")
-#
-#with st.container(border=True):
-#        st.markdown("9를 입력 --> B")
-#        st.markdown("6을 입력 --> C")
-#        st.markdown("""3을 입력 --> A
-#                                    C""")
-#st.subheader("두번째 문제")
-# with st.container(border=True):
+st.markdown("# 파이썬 퀴즈 프로그램")
+with st.sidebar:
+    st.header("힌트 보기")
+    q1 = st.button("1번 문제")
+    q2 = st.button("2번 문제")
+    if q1:
+        st.markdown("라는걸 명심하세요!")
+    if q2:
+        st.markdown("라는걸 명심하세요!")
+st.subheader("첫번째 문제")
+ with st.container(border=True):
+        st.markdown("n = int(input())")
+        st.markdown("""if n < 4:
+                            print("A")""")
+        st.markdown("""____ n > 8:
+                            print("B")""")
+        st.markdown("""else:
+                            print("C")""")
+
+with st.container(border=True):
+        st.markdown("9를 입력 --> B")
+        st.markdown("6을 입력 --> C")
+        st.markdown("""3을 입력 --> A
+                                    C""")
+st.subheader("두번째 문제")
+ with st.container(border=True):
 
 st.title("카운터 앱")
 count = 0
