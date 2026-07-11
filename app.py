@@ -37,6 +37,6 @@ if st.button("질문 전송하기"):
 
 
 st.title("Hello world")
-st.sbuheader("Hello wolrd")
+st.sbheader("Hello wolrd")
 st.text("Hello world")
 st.success("Hello world")
