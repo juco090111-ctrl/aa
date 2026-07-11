@@ -32,7 +32,7 @@ import streamlit as st
 #   else:
 #        st.error("⚠️ 동의 항목에 체크해야 전송이 가능합니다.")
 
-
+#ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 #st.markdown("# 앱 UI 만들기")
 #user_id = st.text_input("이름", placeholder="이름")
 #cla = st.number_input("반", min_value=1, max_value=10, value=1)
@@ -46,7 +46,7 @@ import streamlit as st
 #    st.markdown(f"점수: {score}")
 #    st.info(f"소감:{text1}")
 
-
+#ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 with st.sidebar:
     st.header("프로필")
     user_name = st.text_input("닉네임")
