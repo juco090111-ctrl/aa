@@ -35,4 +35,3 @@ if st.button("질문 전송하기"):
 st.markdown("ㅇㅇㅇㅇㅇㅇ")
 a = st.number_input(min_value = 1, max_value = 17, velue = 17)
 b = st.number_input(min_value = 1, max_value = 17, velue = 17)
-st.markdown(a+b)
